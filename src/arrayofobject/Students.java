@@ -7,6 +7,7 @@ package arrayofobject;
 public class Students {
    private String name;
    private int age;
+   private boolean parttime;
 
     /**
      * @return the name
@@ -34,6 +35,20 @@ public class Students {
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @param parttime the parttime to set
+     */
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
+    }
+
+    /**
+     * @return the parttime
+     */
+    public boolean isParttime() {
+        return parttime;
     }
    
    
