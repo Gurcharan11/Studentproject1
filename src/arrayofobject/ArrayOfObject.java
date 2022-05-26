@@ -27,6 +27,7 @@ public class ArrayOfObject {
         System.out.println("Learn Github Operations");
         //commit and save
         //Pull Operation
+        //Fetch and merge operation
         
     }
     
